@@ -21,7 +21,7 @@ done_dir = r'C:\Users\YOUR_USERNAME\Desktop\re_Erledigt'  # Directory where PDFs
 2. **Set up a virtual environment** (recommended):
 
     ```bash
-    python -m venv env
+    python3 -m venv env
     ```
 
 3. **Activate the virtual environment**:
@@ -47,7 +47,7 @@ done_dir = r'C:\Users\YOUR_USERNAME\Desktop\re_Erledigt'  # Directory where PDFs
 5. **Run the application**:
 
     ```bash
-    python process_pdfs.py
+    python move_pdf_windows.py
     ```
 
 
