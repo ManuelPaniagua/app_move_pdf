@@ -4,6 +4,11 @@
 
 This Python application searches for PDF files in a specified folder and checks if a specific number is present in the first column (Verw.-Nr.) of tables within each PDF. If the number is found, the PDF is moved to a designated output folder.
 
+
+### Paths to directories on the desktop (example)
+pdf_dir = r'C:\Users\YOUR_USERNAME\Desktop\re_'  # Directory containing PDFs to be checked
+done_dir = r'C:\Users\YOUR_USERNAME\Desktop\re_Erledigt'  # Directory where PDFs will be moved if the number is found
+
 ## Installation
 
 1. **Clone the repository**:
@@ -46,5 +51,6 @@ This Python application searches for PDF files in a specified folder and checks 
     ```
 
 
+## TESTEN
 
 
